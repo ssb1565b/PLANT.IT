@@ -138,21 +138,28 @@
 </tr>
 <tr>
   <th>Category</th>
-  <td></td>
+  <td>string으로만 구성된 식물 데이터를 객체로 변경하여 화면에 그려줍니다. <br/>
+	  로컬 스토리지 값 받아와 검색 결과 초기화합니다. <br/>
+	  버튼 click 에 따라 클래스명(clicked)을 부여하여 hover, click 시 디자인 변경됩니다. 또한 각 버튼마다 해당되는 식물의 속성값 저장합니다. <br/>
+	  window에 addEventListener를 부여하여 필터링 버튼 클릭시마다 검색결과가 리렌더링되어 보여집니다.
+  </td>
 </tr>
 <str>
   <th>Test</th>
-  <td> </td>
+  <td></td>
 </str>
 <tr>
   <th>TestResult</th>  
-  <td></td>
+  <td>결과 페이지를 컴포넌트화 하여 localStroage 값에 따라 내부 값이 변경됩니다. <br/>
+	  swiper의 autoplay.start()를 통하여 추천 식물을 동적으로 그려줍니다. <br/>
+  </td>
   </tr>
  <tr>
     <th>Stroy</th>
     <td></td>
 </tr>
   </table>
+  
 ## 🌵 개발 환경
 
 <div id="4"></div>
@@ -174,7 +181,7 @@
 
 ![git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white) ![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white) ![figma](https://img.shields.io/badge/figma-000000?style=for-the-badge&logo=figma&logoColor=white)
 
-
+<div id="5"></div>
 
 ## 🍃 Commit & Issue Convention
 
